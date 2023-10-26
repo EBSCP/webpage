@@ -1,0 +1,80 @@
+
+#middle{
+    border: 6px solid white;
+    background-color: black;
+    color:aliceblue;
+    width: 500px;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+}
+.links {
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    
+    
+}
+body { 
+    background-color:rgb(68, 114, 88);
+    background-size: 1550px;
+}
+
+a:link, a:visited {
+    background-color: #98ecf550; 
+    color:azure; 
+    padding: 14px 40px; 
+    text-decoration: none; 
+    font-size: 16px;
+    opacity: 1;
+
+}
+a:hover, a:active {
+    opacity: 1;
+}
+#photo > img  { 
+    width: 300px;
+    height: 450px;
+    padding: 14px 550px;
+    position: relative;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;  
+    overflow: hidden;
+}
+ 
+img {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100px;  
+    height: auto;
+}
+@keyframes walk {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(calc(100% + 100px)); 
+}
+}
+ 
+#material {
+    margin:auto;
+    position: relative;
+    padding: 14px 80px;
+    height: 100px;
+    width: 400px;
+}
+#tech {
+    width: 600px;
+    height: 600px;
+    padding: 14px 150px;
+    border:1px solid rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+} 
